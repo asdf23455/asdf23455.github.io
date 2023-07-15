@@ -11,5 +11,7 @@ document.body.onmousedown = function () {
     changeImage("s0090_25_0.png");
 }
 document.body.onmouseup = function () {
+    count += 1;
+    document.querySelector("#pop").textContent = count;   
     changeImage("gorilla_banana.png");
 }
